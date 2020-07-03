@@ -1,4 +1,4 @@
-node{
+ node{
     // tool function returns home location of this tool
     def mvnHome = tool name: 'maven3', type: 'maven'
 
@@ -11,5 +11,9 @@ node{
     stage('Maven Build'){
         sh  script: "${mvnHome}/bin/mvn clean package"  
     }
+
+    stage('Deploy to Dev'){
+        echo "Deploy to dev - comming soon..."
+    }
     
-}
+ }
