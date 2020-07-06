@@ -49,6 +49,5 @@ Thanks
 Devops Team
 git212""", subject: "${JOB_NAME} - deployment faield", to: 'bharatmahanta503@gmail.com'
         }
-    }
-    
+    }   
 }
