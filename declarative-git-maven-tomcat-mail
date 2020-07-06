@@ -41,4 +41,14 @@ Devops Team
 git212""", subject: "${JOB_NAME} - Successfully Deployed", to: 'bharatmahanta503@gmail.com'
         }
     }
+        failure{
+            mail body: """Hi Team, The app is deployment failed
+            ${BUILD_URL}
+
+Thanks
+Devops Team
+git212""", subject: "${JOB_NAME} - deployment faield", to: 'bharatmahanta503@gmail.com'
+        }
+    }
+    
 }
