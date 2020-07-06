@@ -7,7 +7,7 @@ pipeline{
             steps{
                 git url: 'https://github.com/git212/lockdown.git',
                 branch: 'master',
-                git credentialsId: 'github'
+                credentialsId: 'github'
             }
         }
         stage('Maven Build'){
