@@ -37,7 +37,7 @@ pipeline{
 
 Thanks
 Devops Team
-git212''', subject: 'Successfully Deployed', to: 'bharatmahanta503@gmail.com'
+git212''', subject: 'Successfully Deployed', to: 'mahantabharat312@gmail.com'
         }
     }
 }
